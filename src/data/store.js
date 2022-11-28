@@ -22,7 +22,7 @@ export const store = reactive({
       }
     ],
     logoBlackSrc: '/assets/MM-assets/Marchio_Mark_Meccoli_nero_PICCOLO.png',
-    logoWhiteSrc: 'src/assets/MM-assets/Marchio Mark Meccoli bianco_Tavola disegno 1.png'
+    logoWhiteSrc: '/assets/MM-assets/Marchio Mark Meccoli bianco_Tavola disegno 1.png'
   },
   newLink: {
     href: '',

@@ -42,7 +42,7 @@ export default {
     </div>
 
 
-    <div class="login" @click="showAdmin()">MM</div>
+    <!-- <div class="login" @click="showAdmin()">MM</div> -->
 
     <div class="intranet" v-if="store.showIntranet">
 
