@@ -35,7 +35,6 @@ export default {
       <div class="logo">
         <img :src="artist.logoBlackSrc" :alt="artist.name">
       </div>
-      <h2 class="text-center fs-1">Hi!</h2>
 
       <card-component v-for="(link, index) in store.artist.links" :key="index" :link="link"/>
 
