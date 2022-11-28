@@ -21,7 +21,7 @@ export const store = reactive({
         faIcon: 'fa-brands fa-spotify'
       }
     ],
-    logoBlackSrc: 'src/assets/MM-assets/Marchio_Mark_Meccoli_nero_PICCOLO.png',
+    logoBlackSrc: '/assets/MM-assets/Marchio_Mark_Meccoli_nero_PICCOLO.png',
     logoWhiteSrc: 'src/assets/MM-assets/Marchio Mark Meccoli bianco_Tavola disegno 1.png'
   },
   newLink: {
