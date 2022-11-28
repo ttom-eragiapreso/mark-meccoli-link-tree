@@ -17,7 +17,7 @@ export default {
   
   <div class="container d-flex mb-4 p-2">
     <div class="img-container">
-      <a :href="link.href" class="fs-1 d-flex"><font-awesome-icon :icon="link.faIcon"/></a>
+      <a :href="link.href" class="fs-1 d-flex"><font-awesome-icon :icon="link.faIcon" v-if="link.faIcon"/></a>
     </div>
     <div class="h-100 m-auto d-flex align-items-center">
       <a :href="link.href" class="fs-1">{{link.name}}</a>
