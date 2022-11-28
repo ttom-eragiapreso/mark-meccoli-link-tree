@@ -32,7 +32,7 @@ export default {
   <div class="em-container d-flex">
 
     <div class="container">
-      <div class="logo">
+      <div class="logo mb-5">
         <img :src="artist.logoBlackSrc" :alt="artist.name">
       </div>
 
