@@ -19,13 +19,13 @@ export default {
 
 <template>
   
-  <div class="em-container d-flex align-items-center">
+  <div class="em-container d-flex">
 
     <div class="container">
       <div class="logo">
         <img :src="artist.logoBlackSrc" :alt="artist.name">
       </div>
-      <h2 class="text-center fs-1 my-5">Hi!</h2>
+      <h2 class="text-center fs-1">Hi!</h2>
 
       <card-component v-for="(link, index) in store.artist.links" :key="index" :link="link"/>
 
@@ -42,15 +42,27 @@ export default {
 .em-container {
   height: 100vh;
   background-color: $background-color;
+  align-items: center;
 }
 
-// .container {
-//   border: 1px solid white;
-// }
 
 .logo{
-  width: 450px;
+  max-width: 450px;
   margin: 0 auto;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+@media all and (max-width: 500px) {
+  h2{
+    margin: .5rem 0;
+  }
+  .em-container {
+    align-items: flex-start;
+    padding-top: 50px;
+  }
 }
 
 </style>

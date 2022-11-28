@@ -15,11 +15,11 @@ export default {
 
 <template>
   
-  <div class="container d-flex mb-4">
+  <div class="container d-flex mb-4 p-2">
     <div class="img-container">
       <a :href="link.href" class="fs-1 d-flex"><font-awesome-icon :icon="link.faIcon"/></a>
     </div>
-    <div class="mx-auto">
+    <div class="h-100 m-auto d-flex align-items-center">
       <a :href="link.href" class="fs-1">{{link.name}}</a>
     </div>
   </div>
@@ -34,7 +34,7 @@ export default {
 a {
   color: black;
   &:hover {
-    color: white;
+    color: rgb(248, 240, 245);
   }
 }
 
@@ -60,4 +60,6 @@ a {
     }
   }
 }
+
+
 </style>

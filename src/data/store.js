@@ -6,14 +6,14 @@ export const store = reactive({
     stageName: 'Mark Meccoli',
     links: [
       {
-        href: 'https://soundcloud.com/markmeccoli/sets/portfolio-mark-mc-medd3e?si=f8dc8586dcbd462ea50312b8432099d2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-        name: 'SoundCloud',
-        faIcon: 'fa-brands fa-soundcloud'
-      },
-      {
         href: 'https://open.spotify.com/track/2OXpec4SxgoDtp0gXEUlwU?si=fca1e33fc32149cb',
         name: 'Spotify',
         faIcon: 'fa-brands fa-spotify'
+      },
+      {
+        href: 'https://soundcloud.com/markmeccoli/sets/portfolio-mark-mc-medd3e?si=f8dc8586dcbd462ea50312b8432099d2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+        name: 'SoundCloud',
+        faIcon: 'fa-brands fa-soundcloud'
       },
       {
         href: 'https://open.spotify.com/track/2KJKzyn5p8Nt94xVEQaCE8?si=878e227534e64055',
