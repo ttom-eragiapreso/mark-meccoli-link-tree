@@ -1,7 +1,11 @@
 <script>
 import {store} from '../data/store'
+import CardComponent from './CardComponent.vue'
 export default {
   name: 'MainComponent',
+  components: {
+    CardComponent
+  },
   data(){
     return {
       store
@@ -21,6 +25,10 @@ export default {
       <div class="logo">
         <img :src="artist.logoBlackSrc" :alt="artist.name">
       </div>
+      <h2 class="text-center fs-1 my-5">Hi!</h2>
+
+      <card-component v-for="(link, index) in store.artist.links" :key="index" :link="link"/>
+
     </div>
 
   </div>
@@ -36,9 +44,9 @@ export default {
   background-color: $background-color;
 }
 
-.container {
-  border: 1px solid white;
-}
+// .container {
+//   border: 1px solid white;
+// }
 
 .logo{
   width: 450px;
