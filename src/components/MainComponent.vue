@@ -76,6 +76,7 @@ export default {
 
 .em-container {
   height: 100vh;
+  overflow: hidden;
   background-color: $background-color;
   align-items: center;
   position: relative;
